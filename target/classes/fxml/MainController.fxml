@@ -30,8 +30,8 @@
         <rowConstraints>
           <RowConstraints maxHeight="68.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
           <RowConstraints maxHeight="150.0" minHeight="0.0" prefHeight="27.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="252.0" minHeight="10.0" prefHeight="81.0" vgrow="NEVER" />
-            <RowConstraints maxHeight="258.0" minHeight="10.0" prefHeight="183.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="252.0" minHeight="10.0" prefHeight="43.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="258.0" minHeight="10.0" prefHeight="221.0" vgrow="NEVER" />
         </rowConstraints>
          <children>
             <Label prefHeight="17.0" prefWidth="99.0" text="Maximum value : " />
@@ -39,14 +39,14 @@
             <Spinner fx:id="maximunNumber" prefHeight="25.0" prefWidth="90.0" GridPane.columnIndex="1" />
             <Spinner fx:id="totalNumber" prefHeight="25.0" prefWidth="90.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Button fx:id="generateButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onGenerate" prefHeight="25.0" prefWidth="209.0" text="Generate!" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
-            <ImageView disable="true" fitHeight="193.0" fitWidth="166.0" mouseTransparent="true" opacity="0.73" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="2147483647" GridPane.rowIndex="3">
+            <ImageView disable="true" fitHeight="205.0" fitWidth="220.0" mouseTransparent="true" opacity="0.73" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="2147483647" GridPane.rowIndex="3">
                <image>
                   <Image url="@../images/Image_AZ.jpeg" />
                </image>
             </ImageView>
          </children>
          <padding>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            <Insets bottom="5.0" left="5.0" top="5.0" />
          </padding>
       </GridPane>
    </left>
