@@ -66,10 +66,10 @@ public class MainController implements Initializable {
 		numberList.getItems().clear();
 
 		Integer value = maximumNumberSpinner.getValue();
-		
+		double numberDouble;
 		while(i < totalNumber.getValue())
 		{
-			double numberDouble = Math.random()* value + 1;
+			numberDouble = Math.random()* value + 1;
 			numberList.getItems().add((int) numberDouble);
 			i++;
 		}

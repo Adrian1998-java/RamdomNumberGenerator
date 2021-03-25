@@ -18,6 +18,7 @@ public class App extends Application
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Ramdom Number Generator");
 		primaryStage.setResizable(false);
+		primaryStage.getIcons().add(new Image("/images/logo_32_32px.png"));
 		
 		primaryStage.show();
 	}
