@@ -15,7 +15,7 @@
 
 <BorderPane fx:id="view" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <top>
-      <Label contentDisplay="CENTER" text="Ramdom Number Generator" BorderPane.alignment="CENTER">
+      <Label contentDisplay="CENTER" text="Random Number Generator" BorderPane.alignment="CENTER">
          <font>
             <Font size="29.0" />
          </font>
@@ -34,7 +34,7 @@
             <RowConstraints maxHeight="258.0" minHeight="10.0" prefHeight="221.0" vgrow="NEVER" />
         </rowConstraints>
          <children>
-            <Label prefHeight="17.0" prefWidth="99.0" text="Maximum value : " />
+            <Label prefHeight="17.0" prefWidth="99.0" text="Max value : " />
             <Label text="Number of results : " GridPane.rowIndex="1" />
             <Spinner fx:id="maximunNumber" prefHeight="25.0" prefWidth="90.0" GridPane.columnIndex="1" />
             <Spinner fx:id="totalNumber" prefHeight="25.0" prefWidth="90.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
