@@ -1,3 +1,4 @@
+package dad.rng;
 
 public class Main {
 

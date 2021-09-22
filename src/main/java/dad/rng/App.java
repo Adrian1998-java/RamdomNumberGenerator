@@ -1,3 +1,4 @@
+package dad.rng;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
